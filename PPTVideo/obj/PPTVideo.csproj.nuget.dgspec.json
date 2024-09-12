@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\BaiduNetdiskDownload\\PPTVideo\\PPTVideo\\PPTVideo.csproj": {}
+  },
+  "projects": {
+    "F:\\BaiduNetdiskDownload\\PPTVideo\\PPTVideo\\PPTVideo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\BaiduNetdiskDownload\\PPTVideo\\PPTVideo\\PPTVideo.csproj",
+        "projectName": "PPTVideo",
+        "projectPath": "F:\\BaiduNetdiskDownload\\PPTVideo\\PPTVideo\\PPTVideo.csproj",
+        "packagesPath": "C:\\Users\\XiaoHui\\.nuget\\packages\\",
+        "outputPath": "F:\\BaiduNetdiskDownload\\PPTVideo\\PPTVideo\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\XiaoHui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "NAudio": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

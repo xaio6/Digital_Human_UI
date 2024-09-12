@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UhdMIFn2G0ackxxcnyqsdDjj410Nn6H+x1yfR72jut9fbQL1L8g3ThEaDIk2X1UDoJqvCrKyV1uIuWCyWg5x5g==",
+  "success": true,
+  "projectFilePath": "F:\\BaiduNetdiskDownload\\PPTVideo\\PPTVideo\\PPTVideo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\XiaoHui\\.nuget\\packages\\naudio\\1.9.0\\naudio.1.9.0.nupkg.sha512",
+    "C:\\Users\\XiaoHui\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
