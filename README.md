@@ -1,6 +1,6 @@
  # 数字人授课录制系统 — 全新的微课视频的生成方案
 
-<h1 align="center">Digital_Human_API</h1>
+<h1 align="center">Digital_Human_UI</h1>
 
 ## 简介
 <div align="center">
