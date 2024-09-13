@@ -75,7 +75,7 @@
 
 
 **2、配置环境**
-- **VS2019安装，安装方法参考 http://t.csdnimg.cn/oJsW0,安装后打开本项目**
+- **VS2019安装，安装方法参考 http://t.csdnimg.cn/oJsW0 安装后打开本项目。**
 - **管理NuGet程序包，安装NAudio和Newtonsoft.Json。**
 - **启动[Digital_Human_API](https://github.com/xaio6/Digital_Human_API)项目的后端服务，获取http链接。**
 
