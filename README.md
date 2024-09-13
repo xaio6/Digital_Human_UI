@@ -1,13 +1,13 @@
  # 数字人授课录制系统 — 全新的微课视频的生成方案
 
- <h1 align="center">Digital_Human_UI</h1>
+<h1 align="center">Digital_Human_API</h1>
 
- <div align="center">
- <img src="docs/11.jpg"/><br>
- </div>
+## 简介
+<div align="center">
+<img src="docs/11.jpg"/><br>
+</div>
 
-## 版本
-**1.2**
+数字人授课录制系统是由AI Horizons团队设计并开发的教育技术工具，旨在通过先进的数字人技术，为教育领域提供个性化、专属化的PPT授课视频制作和展示体验。该系统支持用户自定义数字人形象和声音，简化视频生成流程，提高教学内容的吸引力和教学效率。
 
 ## 版本更新
 
@@ -27,13 +27,10 @@
 >
 > 🔆 该项目也在持续的更新阶段，如果您有任何关于新的模型方法、研究、技术或发现运行错误的建议，请随时编辑并提交 PR。⭐ 如果您发现这个Github Project有用，请给它点个星！🤩🤩
 
-## 简介
-
-数字人授课录制系统是由AI Horizons团队设计并开发的教育技术工具，旨在通过先进的数字人技术，为教育领域提供个性化、专属化的PPT授课视频制作和展示体验。该系统支持用户自定义数字人形象和声音，简化视频生成流程，提高教学内容的吸引力和教学效率。
 
 ## 软件介绍
 
-该软件是使用winfrom框架构建的一个简单windows应用程序，该应用程序的主要目的是
+该软件是使用`winfrom`框架构建的一个简单windows应用程序，该应用程序的主要目的是:
 
 **提供可视化界面：**
 该程序提供了一个简单的操作界面，可以直观的展示数字人授课视频生成的方式。
@@ -65,36 +62,40 @@
  <img src="docs/5.png"/><br>
  </div>
 
- ## 效果演示 
+## 操作流程 
 
- 链接
+[**可以在blbl看具体操作**]()
+
+## 开始使用
 
  **1、拉取代码**
- https://www.codewithgpu.com/i/Kedreamix/Linly-Talker/Kedreamix-Linly-Talker
+   ```bash
+   git clone https://github.com/xaio6/Digital_Human_UI
+   ```
 
 
 **2、配置环境**
 - **VS2019安装，安装方法参考http://t.csdnimg.cn/oJsW0，安装后打开本项目**
 - **管理NuGet程序包，安装NAudio和Newtonsoft.Json。**
-- **启动Digital_Human_API后端服务，获取http链接。**
+- **启动[Digital_Human_API](https://github.com/xaio6/Digital_Human_API)项目的后端服务，获取http链接。**
 
 <div align="center">
  <img src="docs/7.png"/><br>
  </div>
 
-- **打开项目的Program.cs文件，修改http链接。**
+- **打开项目的 `Program.cs` 文件，修改http链接。**
 
 <div align="center">
  <img src="docs/8.png"/><br>
  </div>
 
- - **启动项目，输入账号密码进行登录，账号：Test，密码：123000。**
+ - **启动项目，输入账号密码进行登录，账号：`Test`，密码：`123000`。**
 
  <div align="center">
  <img src="docs/6.png"/><br>
  </div>
 
- （该项目没有接入数据库，用的是json保存账号密码，如果需要增加用户，需要在Digital_Human_API项目里的DataBase/Login.json里添加）
+ **⚠️（该项目没有接入数据库，用的是json保存账号密码，如果需要增加用户，需要在Digital_Human_API项目里的DataBase/Login.json里添加）⚠️**
 
 ## 使用注意事项
 
@@ -115,14 +116,14 @@
  在设计PPT时，请在每张幻灯片的右下角预留一个空白区域，用于展示数字人，大概范围可参考下图。
 
  <div align="center">
- <img src="docs/pg.jpg"/><br>
+ <img src="docs/image2.png"/><br>
  </div>
 
  - **PPT批注内容：**
   **需要在对一页都写上对应的讲稿（批注）**，该系统会自动获取批注内容做为该页的演讲内容，一页ppt只能有一个批注。（同时也可以把讲稿写到一份word里面发给我们）
 
  <div align="center">
- <img src="docs/pg.jpg"/><br>
+ <img src="docs/image3.png"/><br>
  </div>
 
 **声音训练需求**
@@ -133,32 +134,24 @@
 
  ## 参考
 
-数字人生成使用的是SadTalker。
+**数字人生成使用的是SadTalker。**
 
-**SadTalker：**
-https://github.com/OpenTalker/SadTalker
+`SadTalker：` **https://github.com/OpenTalker/SadTalker**
 
+**感谢开源贡献，我借鉴了当前开源的语音克隆模型 GPT-SoVITS，效果是相当不错，当然，我也把一些训练好的权重放在了百度云盘里面，可以用于参考使用。**
 
+`GPT-SoVITS` ：**https://github.com/RVC-Boss/GPT-SoVITS**
 
-感谢开源贡献，我借鉴了当前开源的语音克隆模型 GPT-SoVITS，效果是相当不错，当然，我也把一些训练好的权重放在了百度云盘里面，可以用于参考使用。
+**该软件的后端服务。**
 
-
-**GPT-SoVITS ：**
-https://github.com/RVC-Boss/GPT-SoVITS
-
-该软件的后端服务。
-
-**Digital_Human_API：**
+`Digital_Human_API` ：**https://github.com/xaio6/Digital_Human_API**
 
 ## 许可协议
-
 本项目遵循 MIT Licence。在使用本工具时，请遵守相关法律，包括版权法、数据保护法和隐私法。未经原作者和/或版权所有者许可，请勿使用本工具。未经原作者和/或版权所有者许可，请勿使用本工具。此外，请确保遵守您参考的模型和组件中的所有许可协议。
 
 ## 技术支持和联系方式
-
 如果您在使用过程中遇到任何问题，请联系我们的技术团队：
-**公众号：AI Horizon**
-
 <div align="center">
- <img src="docs/pg.jpg"/><br>
- </div>
+<h3>公众号：AI Horizon</h3>
+<img src="docs/10.png">
+</div>
