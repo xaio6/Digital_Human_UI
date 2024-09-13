@@ -3,7 +3,7 @@
  <h1 align="center">Digital_Human_UI</h1>
 
  <div align="center">
- <img src="docs/logo.jpg"/><br>
+ <img src="docs/11.jpg"/><br>
  </div>
 
 ## 版本
