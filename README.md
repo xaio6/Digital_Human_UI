@@ -64,7 +64,7 @@
 
 ## 操作流程 
 
-[**可以在blbl看具体操作**]()
+[**可以在blbl看具体操作**](https://www.bilibili.com/video/BV1hpsYeaEit/?spm_id_from=333.999.0.0)
 
 ## 开始使用
 
